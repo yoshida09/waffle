@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe9a7;
+  opacity: 0.4;
+  z-index: -1;
+}
+.Lines_v2 {
+  background-image: linear-gradient(to right, #cfe6b8, #cfe6b8 10px, #a1b38f 10px, #a1b38f);
+  background-size: 20px 100%;
+}
+
+
+h1 {
+  position: relative;
+  padding: 0.5em;
+  background: #a6d3c8;
+  color: white;
+}
+
+h1::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
+}
+
+.box14{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: #d6ebff;
+    box-shadow: 0px 0px 0px 10px #d6ebff;
+    border: dashed 2px white;
+}
+.box14 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.ribbon2 {
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 7px 0;
+  font-size: 18px;/*フォントサイズ*/
+  background: #78d0f5;/*背景色*/
+  color: #FFF;/*文字色*/
+  box-sizing: border-box;
+}
+
+.ribbon2 h3 {
+  margin: 0;
+  padding: 0 30px;
+  border-top: dashed 1px #FFF;/*上の破線*/
+  border-bottom: dashed 1px #FFF;/*下の破線*/
+  line-height: 46px;
+}
+
+.ribbon2:before, .ribbon2:after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+}
+
+.ribbon2:before {
+  /*左端の山形*/
+  top: 0;
+  left: 0;
+  border-width: 30px 0px 30px 15px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+}
+
+.ribbon2:after {
+  /*右端の山形*/
+  top: 0;
+  right: 0;
+  border-width: 30px 15px 30px 0px;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+}
+
+.highlight {
+  color: #696969
+}
+
+</style>
+
+
+<body>
+<div class="bg_pattern Lines_v2"></div>
+
+<h1>日本銀行金融研究所アーカイブ</h1>
+
+<img src="https://www.imes.boj.or.jp/archives/common/img/index/main_v.png" width="50%"  alt="外観">
+
+<br>
+
+<div class="ribbon2">
+  <h3>日本銀行金融研究所アーカイブとは</h3>
+</div>
+
+<div class="box14">
+    <p>日本銀行が明治15年（1882年）の開業時から作成してきた文書や証票類（帳簿、契約書等）を中心に、日本銀行に関わる歴史的公文を保存し、公開している。
+　日本銀行は元々昭和57年（1982年）10月から歴史的価値を持つ金融史関連資料を公開してきた。その後、平成11年9月に、金融研究所にアーカイブを発足した。</p>
+</div>
+
+<div class="ribbon2">
+  <h3>保存している主な資料</h3>
+</div>
+
+<div class="box14">
+    <p>「公文書管理法」における「特定歴史的公文書等」を「歴史的公文」と称し、明治15年の開業時から作成してきた文書や証票類（帳簿、契約書等）を中心に、日本銀行に関わる歴史的を保存し、公開も行っている。他にも本店資料、本店証票類、支店資料、支店商標類、寄贈資料も扱っている。<p>
+    <p>　</p>
+    <span class="highlight">
+    <p>＊本店資料→日本銀行本店の各局室研究所から移管された資料。議事録、会議資料、役員等の会見・講演資料、回議回覧、伺定書類、報告書、調査資料、統計関係資料、建築図面、写真などがある。</p>
+    <p>　</p>
+    <p>本店証票類→日本銀行本店の各局室研究所から移管された証票類。帳簿（総勘定元帳、損益金元帳、手形貸付記入帳、外国為替記入帳等）、契約書などがあります。</p>
+    <p>　</p>
+    <p>支店資料→日本銀行の各支店・国内事務所から移管された資料。支店長等の会見・講演資料、回議回覧、伺定書類、報告書、調査資料、統計関係資料、建築図面などがある。</p>
+    <p>　</p>
+    <p>支店証票類→日本銀行の各支店・国内事務所から移管された証票類。帳簿（総勘定元帳、損益金元帳、手形貸付記入帳等）、契約書などがある。</p>
+    <p>　</p>
+    <p>寄贈資料→日本銀行の元役職員ほか関係者等から寄贈を受けた資料。長野宇平治関係資料、松尾臣善関係資料、田中鉄三郎関係資料、井上準之助関係資料、吉野俊彦関係資料などがある。</p>
+    </span>
+    <p>　</p>
+    <p>また、以上の歴史的公文目録が日本銀行金融研究所アーカイブのホームページにPDFとCSVの2種類のファイル形式で用意されている。</p>
+</div>
+
+<div class="ribbon2">
+  <h3>その他ホームページで確認できること </h3>
+</div>
+
+<div class="box14">
+    <p>アーカイブの各年度の活動報告が掲載されている。現在確認できるのは平成17（2005）年から昨年度令和７（2025）年の20年間の活動報告である。中を確認すると、概況や、主な活動実績、歴史的公文の利用状況などが記載されている。常設展示や広報イベントの企画展などの記載もあり、当時の雰囲気がわかりやすい。<p>
+    
+</div>
+
+<div class="ribbon2">
+  <h3>出典</h3>
+</div>
+
+<div class="box14">
+    <p>https://www.imes.boj.or.jp/archives/gaiyo.html</p>
+</div>
+
+
+
+</body>
+</html>
