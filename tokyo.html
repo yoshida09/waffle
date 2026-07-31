@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe9a7;
+  opacity: 0.4;
+  z-index: -1;
+}
+.Lines_v2 {
+  background-image: linear-gradient(to right, #cfe6b8, #cfe6b8 10px, #a1b38f 10px, #a1b38f);
+  background-size: 20px 100%;
+}
+
+
+h1 {
+  position: relative;
+  padding: 0.5em;
+  background: #a6d3c8;
+  color: white;
+}
+
+h1::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
+}
+
+.box14{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: #d6ebff;
+    box-shadow: 0px 0px 0px 10px #d6ebff;
+    border: dashed 2px white;
+}
+.box14 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.ribbon2 {
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 7px 0;
+  font-size: 18px;/*フォントサイズ*/
+  background: #78d0f5;/*背景色*/
+  color: #FFF;/*文字色*/
+  box-sizing: border-box;
+}
+
+.ribbon2 h3 {
+  margin: 0;
+  padding: 0 30px;
+  border-top: dashed 1px #FFF;/*上の破線*/
+  border-bottom: dashed 1px #FFF;/*下の破線*/
+  line-height: 46px;
+}
+
+.ribbon2:before, .ribbon2:after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+}
+
+.ribbon2:before {
+  /*左端の山形*/
+  top: 0;
+  left: 0;
+  border-width: 30px 0px 30px 15px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+}
+
+.ribbon2:after {
+  /*右端の山形*/
+  top: 0;
+  right: 0;
+  border-width: 30px 15px 30px 0px;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+}
+
+</style>
+
+
+<body>
+<div class="bg_pattern Lines_v2"></div>
+
+<h1>東京外国語大学文書館</h1>
+
+<img src="https://www.kumesekkei.co.jp/project/image/0199_gallery_01.jpg" width="50%"  alt="外観">
+
+<br>
+
+<div class="ribbon2">
+  <h3>東京外国語大学文書館とは</h3>
+</div>
+
+<div class="box14">
+    <p>江戸時代1857年に幕府により開校された蕃書調所を起源とする長い歴史のある東京外国語大学の大学図書館である。大学の教育・研究活動に関わる資料を継続的に収集・整理・保存し、学内外の人が資料を利用できる環境を整備している。そして、大学史編算事業の際に収集された資料を保管し、その整理作業に着手している。</p>
+</div>
+
+<div class="ribbon2">
+  <h3>保存している主な資料</h3>
+</div>
+
+<div class="box14">
+    <p>法人文書や学内刊行物、個人・団体寄贈等を扱っている。法人文書は２０１６年以降に移管対象となった法人文書ファイルの文書目録があり、個人団体寄贈は東京外語会や八杉貞利といった、資料群ごとに目録を公開している。ちなみに学内刊行物の目録については、現在調整中となっている。試しに法人文書の目録を見てみると、研究助成・シンポジウムから予算配分綴や卒業生現況アンケートまで、幅広く大学に関する資料があることが確認できる。<p>
+</div>
+
+<div class="ribbon2">
+  <h3>その他ホームページで確認できること</h3>
+</div>
+
+<div class="box14">
+    <p>東京外国語大学史のページでは、前史から第六編までPDF形式で余すことなく記載されており、言語ごとに分別された個別史まで東京外国語大学の歴史を網羅している。他にも企画展のページでは常設展示のほか、過去に行われていた企画展示の内容がしっかりと残されている。学内刊行物の目録は調整中だったが、「東京外国語大学文書館情報」という文書館の刊行物は２０１７年発行の第一号からすべてネット上で閲覧することができる。<p>
+</div>
+
+<div class="ribbon2">
+  <h3>出店</h3>
+</div>
+
+<div class="box14">
+    <p>https://www.tufs.ac.jp/common/archives/index.html</p>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
